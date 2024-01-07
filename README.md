@@ -7,7 +7,7 @@ PyTube kütüphanesi ile yapmış olduğum YouTube video, ses ve oynatma listele
 
 Tek yapmanız gereken ilgili linki kopyalayıp yapıştırmak
 
-## PyTube Sürümü
+## Gereksinim ve Sürümüler
 |     PyTube     |
 |----------------|
 |     15.0.0     |
