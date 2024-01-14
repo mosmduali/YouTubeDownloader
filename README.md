@@ -5,7 +5,7 @@
 ## YouTube Downloader hakkında
 PyTube kütüphanesi ile yapmış olduğum YouTube video, ses ve oynatma listelerini indirebileceğiniz bir Python programı.
 
-Tek yapmanız gereken YouTube dan ilgili linki kopyalayıp yapıştırmak YouTubeDownloader.py ye yapıştırmak.
+Tek yapmanız gereken YouTube dan ilgili linki kopyalayıp YouTubeDownloader.py ye yapıştırmak.
 
 ## Gereksinim ve Sürümüler
 |     PyTube     |
