@@ -33,6 +33,9 @@ def main():
     else:
         main()
 
+
+def aaa():
+    pass
 # YouTube Video İndirme Fonksiyonu
 def downloadYouTubeVideo():
     try:
@@ -63,11 +66,11 @@ def downloadYouTubeMusic():
     except RegexMatchError:
         input("[!] Üzgünüm, belirtilen link geçersiz veya eksik. (Herhangi bir tuşa basın): ")
         clear_console()
-        downloadYouTubeVideo()
+        downloadYouTubeMusic()
     except VideoUnavailable:
         input("[!] Üzgünüm, belirtilen linkteki videoya şu an erişilemiyor. (Herhangi bir tuşa basın):")
         clear_console()
-        downloadYouTubeVideo()
+        downloadYouTubeMusic()
 
 # YouTube Çalma Listesi Video İndirme Fonksiyonu
 def downloadYouTubePlayListVideos():
@@ -85,15 +88,15 @@ def downloadYouTubePlayListVideos():
     except KeyError:
         input("[!] Üzgünüm, hatalı bir giriş yaptınız. (Herhangi bir tuşa basın): ")
         clear_console()
-        downloadYouTubeVideo()
+        downloadYouTubePlayListVideos()
     except RegexMatchError:
         input("[!] Üzgünüm, belirtilen link geçersiz veya eksik. (Herhangi bir tuşa basın): ")
         clear_console()
-        downloadYouTubeVideo()
+        downloadYouTubePlayListVideos()
     except VideoUnavailable:
         input("[!] Üzgünüm, belirtilen linkteki videoya şu an erişilemiyor. (Herhangi bir tuşa basın):")
         clear_console()
-        downloadYouTubeVideo()
+        downloadYouTubePlayListVideos()
 
 # YouTube Çalma Listesi Ses İndirme Fonksiyonu
 def downloadYouTubePlayListSounds():
@@ -112,15 +115,17 @@ def downloadYouTubePlayListSounds():
     except KeyError:
         input("[!] Üzgünüm, hatalı bir giriş yaptınız. (Herhangi bir tuşa basın): ")
         clear_console()
-        downloadYouTubeVideo()
+        downloadYouTubePlayListSounds()
     except RegexMatchError:
         input("[!] Üzgünüm, belirtilen link geçersiz veya eksik. (Herhangi bir tuşa basın): ")
         clear_console()
-        downloadYouTubeVideo()
+        downloadYouTubePlayListSounds()
     except VideoUnavailable:
         input("[!] Üzgünüm, belirtilen linkteki videoya şu an erişilemiyor. (Herhangi bir tuşa basın):")
         clear_console()
-        downloadYouTubeVideo()
+        downloadYouTubePlayListSounds()
+
+
 
 # .mp4 dosyasını .mp3'e çeviren fonksiyon
 def convertToMp3(mp3):
